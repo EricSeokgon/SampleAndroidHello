@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onButton2Clicked(View v) {
-        Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://m.nave.com"));
+        Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://m.naver.com"));
         startActivity(myIntent);
     }
 
